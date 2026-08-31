@@ -1,0 +1,59 @@
+{
+  "slug": "accretion-and-dilution",
+  "questions": [
+    {
+      "id": "q1",
+      "kind": "mcq",
+      "prompt": "An acquirer trades at a P/E of 20x and buys a target at 10x, funding entirely in shares. Before any synergies, the deal is:",
+      "choices": [
+        "Dilutive, because new shares are issued",
+        "Accretive, as a direct consequence of the multiple arithmetic",
+        "Neutral, because value is exchanged at fair prices",
+        "Impossible to determine without the tax rate"
+      ],
+      "answer": 1,
+      "explanation": "A higher-P/E company buying a lower-P/E company is accretive arithmetically. That is exactly why accretion is a weak test of whether value was created."
+    },
+    {
+      "id": "q2",
+      "kind": "mcq",
+      "prompt": "An acquirer with \u20b9100 crore net income and 100 crore shares buys a target earning \u20b920 crore for \u20b9200 crore, funded by debt at 8% with tax at 25%. What is pro-forma EPS?",
+      "choices": ["\u20b91.00", "\u20b91.08", "\u20b91.20", "\u20b90.96"],
+      "answer": 1,
+      "explanation": "Interest is \u20b916 crore, \u20b912 crore after tax. Net income becomes 100 + 20 \u2212 12 = \u20b9108 crore over an unchanged 100 crore shares, so EPS is \u20b91.08."
+    },
+    {
+      "id": "q3",
+      "kind": "mcq",
+      "prompt": "Why is an excellent acquisition of a fast-growing company often dilutive in year one?",
+      "choices": [
+        "Because growth companies cannot be funded with debt",
+        "Because you pay now for earnings that arrive later",
+        "Because synergies are taxed at a higher rate initially",
+        "Because share counts always rise faster than earnings"
+      ],
+      "answer": 1,
+      "explanation": "A high price relative to current earnings means a low current earnings yield. The earnings justifying the price arrive in later years, so near-term EPS falls."
+    },
+    {
+      "id": "q4",
+      "kind": "true_false",
+      "prompt": "Accretion is a reliable measure of whether an acquisition creates value.",
+      "answer": false,
+      "explanation": "False. It measures the near-term effect of a financing choice on a per-share figure. A high-multiple buyer can make almost any low-multiple purchase look accretive without creating value."
+    },
+    {
+      "id": "q5",
+      "kind": "long_answer",
+      "prompt": "Your CFO rejects an acquisition solely because it is dilutive to EPS for two years. Explain why that reasoning is incomplete, while acknowledging what is legitimate about caring, and name the tests you would run instead.",
+      "rubric": [
+        "Explains that accretion reflects the earnings yield of the target against the after-tax cost of funding, not value creation",
+        "Notes the arithmetic point: multiple differences alone drive accretion or dilution",
+        "Acknowledges the legitimate concerns \u2014 market reaction to reported EPS, and dilution as a prompt requiring explanation",
+        "Proposes better tests: internal rate of return on total consideration including synergies, measured against cost of capital",
+        "Raises the effect on leverage and what happens to the combined company in a downturn"
+      ],
+      "maxScore": 5
+    }
+  ]
+}

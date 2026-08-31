@@ -1,0 +1,32 @@
+[
+  {
+    "id": "markets",
+    "order": 1,
+    "title": "Markets and the banking landscape",
+    "blurb": "Who does what, where money actually moves, and why the industry is organised the way it is."
+  },
+  {
+    "id": "valuation",
+    "order": 2,
+    "title": "Valuation",
+    "blurb": "What a company is worth, and why three defensible methods give three different answers."
+  },
+  {
+    "id": "ma",
+    "order": 3,
+    "title": "Mergers and acquisitions",
+    "blurb": "Why companies buy each other, how a deal actually runs, and what the numbers have to show."
+  },
+  {
+    "id": "lbo",
+    "order": 4,
+    "title": "Leveraged buyouts",
+    "blurb": "Buying a company mostly with its own borrowing capacity, and what makes that work or fail."
+  },
+  {
+    "id": "capital-raising",
+    "order": 5,
+    "title": "Debt and capital raising",
+    "blurb": "How companies actually get money: bonds, loans, IPOs, and the machinery around them."
+  }
+]

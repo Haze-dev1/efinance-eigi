@@ -1,0 +1,64 @@
+{
+  "slug": "the-ipo-process",
+  "questions": [
+    {
+      "id": "q1",
+      "kind": "mcq",
+      "prompt": "A company sells 10 crore shares at \u20b9100; they close the first day at \u20b9140. What happened?",
+      "choices": [
+        "The company raised \u20b91,400 crore",
+        "The company raised \u20b91,000 crore; roughly \u20b9400 crore of value went to allocated investors",
+        "The company must pay the difference to the exchange",
+        "The bank's fee automatically rises by \u20b9400 crore"
+      ],
+      "answer": 1,
+      "explanation": "The company receives the offer price. The difference between that and where the shares trade is a transfer to the investors who received an allocation \u2014 'money left on the table'."
+    },
+    {
+      "id": "q2",
+      "kind": "mcq",
+      "prompt": "What does book-building actually accomplish?",
+      "choices": [
+        "It fixes the price by a formula based on audited earnings",
+        "It discovers investor demand at each price level so a clearing price can be set",
+        "It guarantees the issue will be fully subscribed",
+        "It replaces the need for regulatory review"
+      ],
+      "answer": 1,
+      "explanation": "Investors bid at prices within a range, and the bookrunner builds a picture of demand. The final price comes from that book rather than from a formula."
+    },
+    {
+      "id": "q3",
+      "kind": "mcq",
+      "prompt": "Why do lock-up agreements exist?",
+      "choices": [
+        "Regulators require insiders to hold shares for tax reasons",
+        "Because without them, insider selling immediately after listing would send a damaging signal",
+        "To guarantee the share price rises after listing",
+        "To prevent the company issuing further shares"
+      ],
+      "answer": 1,
+      "explanation": "If insiders could sell straight away, the market would reasonably infer that anyone selling knows something. Lock-ups, commonly six months, remove that inference \u2014 and their expiry is a known event that often moves the price."
+    },
+    {
+      "id": "q4",
+      "kind": "true_false",
+      "prompt": "A direct listing raises new capital for the company in the same way an IPO does.",
+      "answer": false,
+      "explanation": "False. A direct listing lists existing shares without issuing new ones, so no capital is raised \u2014 but there is also no underwriting and no first-day money left on the table."
+    },
+    {
+      "id": "q5",
+      "kind": "long_answer",
+      "prompt": "A founder is delighted that her IPO 'popped' 40% on day one. Explain what that actually cost her company, the honest arguments for some underpricing, and the incentives that make it persist.",
+      "rubric": [
+        "States plainly that the pop is a transfer from the company to allocated investors, and quantifies or describes the amount left on the table",
+        "Gives at least one legitimate reason for underpricing \u2014 compensating investors for committing without trading history, or the asymmetry between a cheap issue and a failed one",
+        "Notes the bank's fee is a percentage of proceeds, so underpricing costs it comparatively little",
+        "Notes that the bank allocates the underpriced shares to institutional clients it deals with repeatedly",
+        "Concludes with a balanced judgement rather than alleging misconduct"
+      ],
+      "maxScore": 5
+    }
+  ]
+}

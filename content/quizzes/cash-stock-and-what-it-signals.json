@@ -1,0 +1,64 @@
+{
+  "slug": "cash-stock-and-what-it-signals",
+  "questions": [
+    {
+      "id": "q1",
+      "kind": "mcq",
+      "prompt": "A company announces a large all-stock acquisition and its own share price falls. What inference are investors most likely making?",
+      "choices": [
+        "That the target is a poor business",
+        "That management believes its own shares are overvalued and is spending cheap currency",
+        "That the deal will certainly be blocked by regulators",
+        "That the company has run out of borrowing capacity and is therefore distressed"
+      ],
+      "answer": 1,
+      "explanation": "Paying with shares you believe are undervalued is expensive, so choosing stock signals the opposite. It is a tendency rather than a law \u2014 size and leverage capacity also drive the choice."
+    },
+    {
+      "id": "q2",
+      "kind": "mcq",
+      "prompt": "How does paying in stock rather than cash change who bears the risk of the deal failing to deliver?",
+      "choices": [
+        "It removes the risk entirely through diversification",
+        "It transfers all risk to the target's shareholders",
+        "It shares the risk, because the target's shareholders now own part of the combined company",
+        "It has no effect on risk allocation, only on tax"
+      ],
+      "answer": 2,
+      "explanation": "Cash lets the target's shareholders exit with certainty and concentrates the outcome on the buyer's shareholders. Stock makes them joint owners of whatever happens next."
+    },
+    {
+      "id": "q3",
+      "kind": "mcq",
+      "prompt": "A founder is retiring and will not stay with the business. Which consideration is she most likely to prefer, and why might she still accept shares?",
+      "choices": [
+        "Stock, because it defers her involvement",
+        "Cash for certainty \u2014 though a share exchange may defer her capital gains tax",
+        "An earn-out, because it maximises headline price",
+        "Cash, because share consideration is not permitted for founders"
+      ],
+      "answer": 1,
+      "explanation": "A retiring seller wants certainty, so cash. But receiving cash often triggers an immediate capital gains charge, while a share-for-share exchange can defer it \u2014 which is why some sellers accept a lower headline price in stock."
+    },
+    {
+      "id": "q4",
+      "kind": "true_false",
+      "prompt": "An earn-out makes part of the price depend on the target's performance after closing, and is a common source of later disputes.",
+      "answer": true,
+      "explanation": "True. It bridges a disagreement about the forecast, but the buyer then controls the business whose performance determines what it must pay \u2014 which is exactly why they generate litigation."
+    },
+    {
+      "id": "q5",
+      "kind": "long_answer",
+      "prompt": "A buyer must choose between funding a large acquisition entirely in cash or entirely in stock. Set out the trade-off for its own shareholders, and explain what each choice communicates to the market.",
+      "rubric": [
+        "States that cash concentrates both synergies and downside on the buyer's existing shareholders",
+        "States that stock dilutes them but transfers part of the risk to the target's shareholders",
+        "Explains the signalling logic: stock is attractive when management thinks its shares are expensive, cash when it thinks they are cheap",
+        "Notes practical constraints that may override signalling \u2014 deal size, existing leverage, credit rating, and tax treatment for the seller",
+        "Mentions that a stock deal's value moves with the share price before closing, and that collars exist to manage this"
+      ],
+      "maxScore": 5
+    }
+  ]
+}

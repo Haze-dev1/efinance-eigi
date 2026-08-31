@@ -1,0 +1,64 @@
+{
+  "slug": "wacc-and-terminal-value",
+  "questions": [
+    {
+      "id": "q1",
+      "kind": "mcq",
+      "prompt": "In the WACC formula, why is the cost of debt multiplied by (1 \u2212 t)?",
+      "choices": [
+        "To adjust for the risk that the lender defaults",
+        "Because interest is generally tax-deductible, so the government bears part of the cost",
+        "To convert a nominal rate into a real rate",
+        "Because debt is repaid before tax is assessed"
+      ],
+      "answer": 1,
+      "explanation": "Interest reduces taxable profit, so the effective cost to the company is lower than the coupon. That is the tax shield."
+    },
+    {
+      "id": "q2",
+      "kind": "mcq",
+      "prompt": "A terminal growth rate of 6% is used for a mature consumer business in a developed market. What is the problem?",
+      "choices": [
+        "It is below inflation, so the business shrinks in real terms",
+        "It exceeds long-run economic growth, implying the company eventually becomes the whole economy",
+        "Terminal growth must always equal the discount rate",
+        "Nothing \u2014 6% is a standard assumption"
+      ],
+      "answer": 1,
+      "explanation": "A company compounding faster than the economy forever eventually exceeds it. Terminal growth must sit below long-run economic growth, commonly 2\u20133% for developed markets."
+    },
+    {
+      "id": "q3",
+      "kind": "mcq",
+      "prompt": "Which input to the cost of equity is not directly observable and is legitimately disputed?",
+      "choices": [
+        "The risk-free rate, taken from long-dated government bonds",
+        "The equity risk premium, which is estimated rather than measured",
+        "The company's share price",
+        "The number of shares outstanding"
+      ],
+      "answer": 1,
+      "explanation": "The equity risk premium is estimated from history or implied from current prices, and reasonable practitioners put it anywhere from about 4% to 7%."
+    },
+    {
+      "id": "q4",
+      "kind": "true_false",
+      "prompt": "CAPM is best understood as a widely-used convention rather than a measurement of the true cost of equity.",
+      "answer": true,
+      "explanation": "True. Its assumptions are strong and beta is unstable across measurement windows. It survives because it is transparent and common, so arguments happen over inputs rather than framework."
+    },
+    {
+      "id": "q5",
+      "kind": "long_answer",
+      "prompt": "Your DCF gives \u20b9800 to \u20b91,400 per share across a sensitivity table, and the stock trades at \u20b9900. Your managing director asks for 'the number'. Explain what you would present and why the range is more useful than a single figure.",
+      "rubric": [
+        "Explains that the range reflects genuine uncertainty in WACC and terminal growth, which are estimates not measurements",
+        "Notes that the market price sits inside the range, so the model does not settle the argument",
+        "Warns against the failure mode of picking the cell that supports a desired conclusion",
+        "Suggests presenting the grid plus a clearly-stated base case with its assumptions made explicit",
+        "Says something concrete about what would narrow the range \u2014 better evidence on growth, margins, or the company's actual cost of borrowing"
+      ],
+      "maxScore": 5
+    }
+  ]
+}

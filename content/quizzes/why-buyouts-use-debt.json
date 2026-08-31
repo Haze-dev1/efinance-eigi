@@ -1,0 +1,64 @@
+{
+  "slug": "why-buyouts-use-debt",
+  "questions": [
+    {
+      "id": "q1",
+      "kind": "mcq",
+      "prompt": "A sponsor buys at \u20b91,000 crore with \u20b9300 crore equity and \u20b9700 crore debt. Cash flow repays \u20b9300 crore of debt, and it sells for \u20b91,500 crore. What does the equity return?",
+      "choices": [
+        "1.5x, the same as the change in enterprise value",
+        "3.7x \u2014 \u20b91,100 crore returned on \u20b9300 crore invested",
+        "5.0x, because the debt is repaid in full",
+        "2.0x, after deducting interest costs"
+      ],
+      "answer": 1,
+      "explanation": "Sale proceeds of \u20b91,500 crore less the remaining \u20b9400 crore of debt leaves \u20b91,100 crore on \u20b9300 crore invested, about 3.7x. The business performed identically; leverage changed how the gain was split."
+    },
+    {
+      "id": "q2",
+      "kind": "mcq",
+      "prompt": "Which source of buyout returns is least underwritable by the sponsor?",
+      "choices": [
+        "Deleveraging from operating cash flow",
+        "Margin improvement from cutting unprofitable lines",
+        "Multiple expansion between entry and exit",
+        "Revenue growth in the core business"
+      ],
+      "answer": 2,
+      "explanation": "Multiple expansion depends on the market being more generous at exit than at entry, which no buyer controls. Relying on it is a bet on conditions rather than a plan."
+    },
+    {
+      "id": "q3",
+      "kind": "mcq",
+      "prompt": "Which company is the weakest LBO candidate?",
+      "choices": [
+        "A subscription software business with recurring contracts",
+        "A consumer staples manufacturer with stable demand",
+        "An early-stage biotech with no revenue and heavy research spending",
+        "A business services firm with long-term customer agreements"
+      ],
+      "answer": 2,
+      "explanation": "Debt must be serviced from cash flow. A pre-revenue business with heavy spending has no cash to service anything, and no assets that comfortably support borrowing."
+    },
+    {
+      "id": "q4",
+      "kind": "true_false",
+      "prompt": "Leverage increases the sponsor's returns without increasing the risk of loss.",
+      "answer": false,
+      "explanation": "False. The concentration is symmetric. The same structure that turns a 1.5x gain into 3.7x turns a moderate decline in value into a total loss of the equity."
+    },
+    {
+      "id": "q5",
+      "kind": "long_answer",
+      "prompt": "A journalist writes that leveraged buyouts 'create value out of nothing by using borrowed money'. Explain precisely what leverage does and does not do, and describe the symmetry that the claim omits.",
+      "rubric": [
+        "States clearly that leverage concentrates returns rather than creating them \u2014 the business performs identically either way",
+        "Explains the mechanism: with less equity in the deal, each rupee of gain is spread across fewer rupees invested",
+        "Describes the downside symmetry, ideally with the point that equity can be wiped out while lenders still recover",
+        "Identifies which return sources are genuine value creation \u2014 operational improvement \u2014 versus deleveraging and multiple expansion",
+        "Notes the argument that debt imposes discipline, while acknowledging it removes the margin for error"
+      ],
+      "maxScore": 5
+    }
+  ]
+}

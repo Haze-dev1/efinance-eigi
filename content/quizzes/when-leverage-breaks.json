@@ -1,0 +1,64 @@
+{
+  "slug": "when-leverage-breaks",
+  "questions": [
+    {
+      "id": "q1",
+      "kind": "mcq",
+      "prompt": "A company breaches a leverage covenant but has made every payment on time. What is its position?",
+      "choices": [
+        "Nothing happens until a payment is actually missed",
+        "It is in default, and negotiating leverage has shifted to its lenders",
+        "The loan automatically converts to equity",
+        "The covenant is waived by law if payments are current"
+      ],
+      "answer": 1,
+      "explanation": "Covenant breach is a default in its own right. What follows is usually a negotiation, but the sponsor now needs something from lenders, and lenders charge for it."
+    },
+    {
+      "id": "q2",
+      "kind": "mcq",
+      "prompt": "EBITDA falls 20% while debt is unchanged. What happens to the leverage ratio?",
+      "choices": [
+        "It is unchanged, because no new debt was raised",
+        "It falls, because the company is smaller",
+        "It rises mechanically, because the denominator shrank",
+        "It depends entirely on the interest rate"
+      ],
+      "answer": 2,
+      "explanation": "Leverage is debt divided by EBITDA. A fall in EBITDA raises the ratio without any new borrowing \u2014 which is how covenants are breached in a downturn."
+    },
+    {
+      "id": "q3",
+      "kind": "mcq",
+      "prompt": "What did the spread of covenant-lite lending change about how leveraged companies fail?",
+      "choices": [
+        "It eliminated defaults by removing the tests that trigger them",
+        "It removed the quarterly early-warning system, so problems surface later and larger",
+        "It shifted all risk to equity holders and away from lenders",
+        "It made floating-rate debt unavailable"
+      ],
+      "answer": 1,
+      "explanation": "Without maintenance covenants, deterioration is not flagged each quarter. Defaults become less frequent but arrive later and worse, typically at a missed payment or an unrefinanceable maturity."
+    },
+    {
+      "id": "q4",
+      "kind": "true_false",
+      "prompt": "A structure financed with floating-rate debt can come under serious strain from interest rate rises alone, with no change in the business.",
+      "answer": true,
+      "explanation": "True. A floating rate resets with the benchmark, so the interest bill on a structure sized in a low-rate environment can rise materially while operations are unchanged."
+    },
+    {
+      "id": "q5",
+      "kind": "long_answer",
+      "prompt": "Trace how a leveraged company gets from a single bad quarter to a debt-for-equity restructuring, and name two structural choices that would have made it more resilient.",
+      "rubric": [
+        "Starts with the trigger: EBITDA falls through lost demand, cost inflation or customer loss",
+        "Explains that leverage rises mechanically as the denominator shrinks, breaching or threatening a covenant",
+        "Describes cash being diverted to debt service, with capex and marketing cut in ways that worsen the underlying business",
+        "Describes refinancing becoming expensive or unavailable from a position of visible weakness, leading to a debt-for-equity swap that wipes out the sponsor's equity",
+        "Names at least two protections \u2014 genuine leverage headroom, fixed or hedged rates, long maturities, or a business whose revenue holds up in a downturn \u2014 and notes each costs return in the good case"
+      ],
+      "maxScore": 5
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "slug": "what-investment-banks-do",
+  "questions": [
+    {
+      "id": "q1",
+      "kind": "mcq",
+      "prompt": "A pension fund manages ₹40,000 crore and buys corporate bonds for its portfolio. Which side of the market is it on?",
+      "choices": [
+        "Sell-side, because it is selling capital to issuers",
+        "Buy-side, because it owns securities for its own portfolio",
+        "Neither — pension funds sit outside the sell-side/buy-side split",
+        "Both, since it trades in the secondary market"
+      ],
+      "answer": 1,
+      "explanation": "Buy-side. The labels describe a firm's role in the system, not the direction of any single trade: the buy-side owns securities, the sell-side manufactures and distributes them."
+    },
+    {
+      "id": "q2",
+      "kind": "mcq",
+      "prompt": "An M&A banker learns her client will announce a takeover in three weeks. Why can she not pass this to the bank's trading desk?",
+      "choices": [
+        "Trading desks are only permitted to act on research published in-house",
+        "She is on the private side holding material non-public information; trading on it is insider dealing",
+        "The information would move the price and reduce her advisory fee",
+        "Internal policy discourages it, though it is legally permitted"
+      ],
+      "answer": 1,
+      "explanation": "IBD sits on the private side. Passing material non-public information across the information barrier to a desk that can trade is insider dealing — a criminal offence, not an internal preference."
+    },
+    {
+      "id": "q3",
+      "kind": "mcq",
+      "prompt": "Which fee is earned regardless of whether a transaction completes?",
+      "choices": [
+        "M&A advisory success fees",
+        "Underwriting gross spread",
+        "Asset management fees on assets under management",
+        "All three are contingent on completion"
+      ],
+      "answer": 2,
+      "explanation": "Asset management charges a percentage of assets annually whether or not anything happens. M&A success fees and underwriting spreads both require a transaction to close."
+    },
+    {
+      "id": "q4",
+      "kind": "true_false",
+      "prompt": "The information barrier between IBD and Sales & Trading exists mainly to reduce internal competition between divisions.",
+      "answer": false,
+      "explanation": "False. It exists because IBD holds material non-public information, and letting it reach a trading desk would be insider dealing."
+    },
+    {
+      "id": "q5",
+      "kind": "long_answer",
+      "prompt": "A friend says: 'Investment banks are just brokers with better suits — they match buyers and sellers and take a cut.' Explain where this is right and where it is incomplete. Use at least two specific divisions in your answer.",
+      "rubric": [
+        "Concedes the intermediation point is genuinely correct: banks do stand between capital and those who need it, and are paid for closing that gap",
+        "Identifies that a bank is several distinct businesses, not one, and names at least two divisions specifically (IBD, Sales & Trading, Research, Asset Management)",
+        "Explains that advisory work in IBD is judgment and execution over months, not order matching",
+        "Notes that Sales & Trading may commit the bank's own capital and take risk, which a pure broker does not",
+        "Mentions the information barrier or the private-side/public-side split as something a simple brokerage model does not have to manage"
+      ],
+      "maxScore": 5
+    }
+  ]
+}

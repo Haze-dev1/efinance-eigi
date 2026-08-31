@@ -1,0 +1,577 @@
+[
+  {
+    "slug": "what-investment-banks-do",
+    "topic": "markets",
+    "chapter": 1,
+    "title": "What an investment bank actually does",
+    "summary": "Banks do not have one job. They have several, deliberately kept apart from each other.",
+    "track": "beginner",
+    "order": 1,
+    "xp": 100,
+    "minutes": 8,
+    "sources": [
+      {
+        "title": "SEC \u2014 Capital Raising Building Blocks: Broker-Dealers",
+        "url": "https://www.sec.gov/resources-small-businesses/capital-raising-building-blocks/broker-dealers"
+      },
+      {
+        "title": "Zerodha Varsity \u2014 Introduction to Stock Markets",
+        "url": "https://zerodha.com/varsity/module/introduction-to-stock-markets/"
+      },
+      {
+        "title": "Corporate Finance Institute \u2014 Investment Banking Overview",
+        "url": "https://corporatefinanceinstitute.com/resources/career/investment-banking-overview/"
+      }
+    ]
+  },
+  {
+    "slug": "primary-and-secondary-markets",
+    "topic": "markets",
+    "chapter": 2,
+    "title": "Primary and secondary markets",
+    "summary": "Only one of these sends money to the company. Confusing them is the most common beginner error.",
+    "track": "beginner",
+    "order": 2,
+    "xp": 100,
+    "minutes": 10,
+    "sources": [
+      {
+        "title": "SEBI \u2014 Securities and Exchange Board of India",
+        "url": "https://www.sebi.gov.in/"
+      },
+      {
+        "title": "SEC \u2014 Updated Investor Bulletin: Investing in an IPO",
+        "url": "https://www.sec.gov/oiea/investor-alerts-and-bulletins/updated-investor-bulletin-investing-ipo"
+      },
+      {
+        "title": "Zerodha Varsity \u2014 Introduction to Stock Markets",
+        "url": "https://zerodha.com/varsity/module/introduction-to-stock-markets/"
+      }
+    ]
+  },
+  {
+    "slug": "sell-side-and-buy-side",
+    "topic": "markets",
+    "chapter": 3,
+    "title": "Who is who: sell-side, buy-side, and the league tables",
+    "summary": "Bulge bracket, boutique, asset manager, hedge fund. The labels describe roles in a system, not size.",
+    "track": "beginner",
+    "order": 3,
+    "xp": 100,
+    "minutes": 9,
+    "sources": [
+      {
+        "title": "SEC \u2014 Capital Raising Building Blocks: Broker-Dealers",
+        "url": "https://www.sec.gov/resources-small-businesses/capital-raising-building-blocks/broker-dealers"
+      },
+      {
+        "title": "Corporate Finance Institute \u2014 Investment Banking Overview",
+        "url": "https://corporatefinanceinstitute.com/resources/career/investment-banking-overview/"
+      },
+      {
+        "title": "Zerodha Varsity \u2014 Introduction to Stock Markets",
+        "url": "https://zerodha.com/varsity/module/introduction-to-stock-markets/"
+      }
+    ]
+  },
+  {
+    "slug": "debt-versus-equity",
+    "topic": "markets",
+    "chapter": 4,
+    "title": "Debt versus equity",
+    "summary": "Two ways to fund a company, with completely different consequences when things go wrong.",
+    "track": "beginner",
+    "order": 4,
+    "xp": 100,
+    "minutes": 10,
+    "sources": [
+      {
+        "title": "SEC \u2014 Investor.gov: Bonds",
+        "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/bonds-or-fixed-income-products"
+      },
+      {
+        "title": "Zerodha Varsity \u2014 Introduction to Stock Markets",
+        "url": "https://zerodha.com/varsity/module/introduction-to-stock-markets/"
+      },
+      {
+        "title": "Aswath Damodaran \u2014 Valuation resources, NYU Stern",
+        "url": "https://pages.stern.nyu.edu/~adamodar/"
+      }
+    ]
+  },
+  {
+    "slug": "exchanges-and-regulators",
+    "topic": "markets",
+    "chapter": 5,
+    "title": "Exchanges, regulators, and who protects whom",
+    "summary": "What an exchange actually does, and why disclosure review is not a quality guarantee.",
+    "track": "beginner",
+    "order": 5,
+    "xp": 100,
+    "minutes": 9,
+    "sources": [
+      {
+        "title": "SEBI \u2014 Securities and Exchange Board of India",
+        "url": "https://www.sebi.gov.in/"
+      },
+      {
+        "title": "SEC \u2014 Investor.gov: How Stock Markets Work",
+        "url": "https://www.investor.gov/introduction-investing/investing-basics/how-stock-markets-work"
+      },
+      {
+        "title": "NSE India \u2014 Market data and products",
+        "url": "https://www.nseindia.com/"
+      }
+    ]
+  },
+  {
+    "slug": "what-a-company-is-worth",
+    "topic": "valuation",
+    "chapter": 1,
+    "title": "What a company is worth",
+    "summary": "Three defensible methods give three different answers. That is the point, not a failure.",
+    "track": "beginner",
+    "order": 6,
+    "xp": 120,
+    "minutes": 10,
+    "sources": [
+      {
+        "title": "Aswath Damodaran \u2014 Valuation resources, NYU Stern",
+        "url": "https://pages.stern.nyu.edu/~adamodar/"
+      },
+      {
+        "title": "Zerodha Varsity \u2014 Fundamental Analysis",
+        "url": "https://zerodha.com/varsity/module/fundamental-analysis/"
+      },
+      {
+        "title": "SEC \u2014 EDGAR full-text search of company filings",
+        "url": "https://www.sec.gov/edgar/search/"
+      }
+    ]
+  },
+  {
+    "slug": "reading-the-three-statements",
+    "topic": "valuation",
+    "chapter": 2,
+    "title": "Reading the three statements",
+    "summary": "Income statement, balance sheet, cash flow \u2014 and why profit is not cash.",
+    "track": "beginner",
+    "order": 7,
+    "xp": 120,
+    "minutes": 12,
+    "sources": [
+      {
+        "title": "SEC \u2014 EDGAR full-text search of company filings",
+        "url": "https://www.sec.gov/edgar/search/"
+      },
+      {
+        "title": "Zerodha Varsity \u2014 Fundamental Analysis",
+        "url": "https://zerodha.com/varsity/module/fundamental-analysis/"
+      },
+      {
+        "title": "Aswath Damodaran \u2014 Valuation resources, NYU Stern",
+        "url": "https://pages.stern.nyu.edu/~adamodar/"
+      }
+    ]
+  },
+  {
+    "slug": "enterprise-value-and-multiples",
+    "topic": "valuation",
+    "chapter": 3,
+    "title": "Enterprise value and multiples",
+    "summary": "Why bankers quote EV/EBITDA and not share price, and what a multiple actually compresses.",
+    "track": "intermediate",
+    "order": 8,
+    "xp": 120,
+    "minutes": 11,
+    "sources": [
+      {
+        "title": "Aswath Damodaran \u2014 Valuation resources, NYU Stern",
+        "url": "https://pages.stern.nyu.edu/~adamodar/"
+      },
+      {
+        "title": "Zerodha Varsity \u2014 Fundamental Analysis",
+        "url": "https://zerodha.com/varsity/module/fundamental-analysis/"
+      },
+      {
+        "title": "Corporate Finance Institute \u2014 Investment Banking Overview",
+        "url": "https://corporatefinanceinstitute.com/resources/career/investment-banking-overview/"
+      }
+    ]
+  },
+  {
+    "slug": "discounted-cash-flow",
+    "topic": "valuation",
+    "chapter": 4,
+    "title": "Discounted cash flow",
+    "summary": "Forecast the cash, discount it, add it up. Every hard part is hidden in those three verbs.",
+    "track": "intermediate",
+    "order": 9,
+    "xp": 140,
+    "minutes": 13,
+    "sources": [
+      {
+        "title": "Corporate Finance Institute \u2014 DCF Analysis",
+        "url": "https://corporatefinanceinstitute.com/resources/valuation/dcf-analysis-infographic/"
+      },
+      {
+        "title": "Aswath Damodaran \u2014 Valuation resources, NYU Stern",
+        "url": "https://pages.stern.nyu.edu/~adamodar/"
+      },
+      {
+        "title": "SEC \u2014 EDGAR full-text search of company filings",
+        "url": "https://www.sec.gov/edgar/search/"
+      }
+    ]
+  },
+  {
+    "slug": "wacc-and-terminal-value",
+    "topic": "valuation",
+    "chapter": 5,
+    "title": "WACC and terminal value",
+    "summary": "The discount rate and the number after the forecast \u2014 where most of a DCF's value actually sits.",
+    "track": "intermediate",
+    "order": 10,
+    "xp": 140,
+    "minutes": 12,
+    "sources": [
+      {
+        "title": "Aswath Damodaran \u2014 Valuation resources, NYU Stern",
+        "url": "https://pages.stern.nyu.edu/~adamodar/"
+      },
+      {
+        "title": "Federal Reserve \u2014 Selected interest rates (H.15)",
+        "url": "https://www.federalreserve.gov/releases/h15/"
+      },
+      {
+        "title": "Corporate Finance Institute \u2014 DCF Analysis",
+        "url": "https://corporatefinanceinstitute.com/resources/valuation/dcf-analysis-infographic/"
+      }
+    ]
+  },
+  {
+    "slug": "why-companies-buy-companies",
+    "topic": "ma",
+    "chapter": 1,
+    "title": "Why companies buy companies",
+    "summary": "Synergy is the word on the press release. Here is what is usually underneath it.",
+    "track": "beginner",
+    "order": 11,
+    "xp": 120,
+    "minutes": 10,
+    "sources": [
+      {
+        "title": "SEC \u2014 Investor.gov: Mergers and Acquisitions",
+        "url": "https://www.investor.gov/introduction-investing/investing-basics/glossary/mergers-and-acquisitions"
+      },
+      {
+        "title": "Corporate Finance Institute \u2014 Investment Banking Overview",
+        "url": "https://corporatefinanceinstitute.com/resources/career/investment-banking-overview/"
+      },
+      {
+        "title": "Aswath Damodaran \u2014 Valuation resources, NYU Stern",
+        "url": "https://pages.stern.nyu.edu/~adamodar/"
+      }
+    ]
+  },
+  {
+    "slug": "how-a-deal-actually-runs",
+    "topic": "ma",
+    "chapter": 2,
+    "title": "How a deal actually runs",
+    "summary": "From first approach to closing: who does what, in what order, and where deals die.",
+    "track": "intermediate",
+    "order": 12,
+    "xp": 140,
+    "minutes": 12,
+    "sources": [
+      {
+        "title": "SEC \u2014 Investor.gov: Mergers and Acquisitions",
+        "url": "https://www.investor.gov/introduction-investing/investing-basics/glossary/mergers-and-acquisitions"
+      },
+      {
+        "title": "SEBI \u2014 Securities and Exchange Board of India",
+        "url": "https://www.sebi.gov.in/"
+      },
+      {
+        "title": "Corporate Finance Institute \u2014 Investment Banking Overview",
+        "url": "https://corporatefinanceinstitute.com/resources/career/investment-banking-overview/"
+      }
+    ]
+  },
+  {
+    "slug": "accretion-and-dilution",
+    "topic": "ma",
+    "chapter": 3,
+    "title": "Accretion and dilution",
+    "summary": "The first number a board asks for, why it is a weak test of value, and how to compute it.",
+    "track": "intermediate",
+    "order": 13,
+    "xp": 140,
+    "minutes": 12,
+    "sources": [
+      {
+        "title": "Aswath Damodaran \u2014 Valuation resources, NYU Stern",
+        "url": "https://pages.stern.nyu.edu/~adamodar/"
+      },
+      {
+        "title": "Corporate Finance Institute \u2014 Investment Banking Overview",
+        "url": "https://corporatefinanceinstitute.com/resources/career/investment-banking-overview/"
+      },
+      {
+        "title": "SEC \u2014 EDGAR full-text search of company filings",
+        "url": "https://www.sec.gov/edgar/search/"
+      }
+    ]
+  },
+  {
+    "slug": "cash-stock-and-what-it-signals",
+    "topic": "ma",
+    "chapter": 4,
+    "title": "Cash, stock, and what the choice signals",
+    "summary": "How a deal is paid for tells you what the buyer privately believes about its own shares.",
+    "track": "intermediate",
+    "order": 14,
+    "xp": 140,
+    "minutes": 11,
+    "sources": [
+      {
+        "title": "Aswath Damodaran \u2014 Valuation resources, NYU Stern",
+        "url": "https://pages.stern.nyu.edu/~adamodar/"
+      },
+      {
+        "title": "SEC \u2014 Investor.gov: Mergers and Acquisitions",
+        "url": "https://www.investor.gov/introduction-investing/investing-basics/glossary/mergers-and-acquisitions"
+      },
+      {
+        "title": "SEC \u2014 EDGAR full-text search of company filings",
+        "url": "https://www.sec.gov/edgar/search/"
+      }
+    ]
+  },
+  {
+    "slug": "antitrust-and-regulatory-review",
+    "topic": "ma",
+    "chapter": 5,
+    "title": "Antitrust and regulatory review",
+    "summary": "The approval that can kill a signed deal, and why break fees exist.",
+    "track": "advanced",
+    "order": 15,
+    "xp": 160,
+    "minutes": 12,
+    "sources": [
+      {
+        "title": "Competition Commission of India",
+        "url": "https://www.cci.gov.in/"
+      },
+      {
+        "title": "US DOJ \u2014 Antitrust Division: Merger Enforcement",
+        "url": "https://www.justice.gov/atr/merger-enforcement"
+      },
+      {
+        "title": "FTC \u2014 Hart-Scott-Rodino premerger notification programme",
+        "url": "https://www.ftc.gov/enforcement/premerger-notification-program"
+      }
+    ]
+  },
+  {
+    "slug": "why-buyouts-use-debt",
+    "topic": "lbo",
+    "chapter": 1,
+    "title": "Why buyouts use debt",
+    "summary": "Leverage does not create value. It concentrates whatever value is already there \u2014 in both directions.",
+    "track": "intermediate",
+    "order": 16,
+    "xp": 140,
+    "minutes": 11,
+    "sources": [
+      {
+        "title": "Corporate Finance Institute \u2014 Leveraged Buyout (LBO)",
+        "url": "https://corporatefinanceinstitute.com/resources/financial-modeling/leveraged-buyout-lbo/"
+      },
+      {
+        "title": "Aswath Damodaran \u2014 Valuation resources, NYU Stern",
+        "url": "https://pages.stern.nyu.edu/~adamodar/"
+      },
+      {
+        "title": "SEC \u2014 EDGAR full-text search of company filings",
+        "url": "https://www.sec.gov/edgar/search/"
+      }
+    ]
+  },
+  {
+    "slug": "sources-and-uses",
+    "topic": "lbo",
+    "chapter": 2,
+    "title": "Sources and uses",
+    "summary": "The one table that has to balance before anything else in a buyout means anything.",
+    "track": "advanced",
+    "order": 17,
+    "xp": 160,
+    "minutes": 12,
+    "sources": [
+      {
+        "title": "Corporate Finance Institute \u2014 Leveraged Buyout (LBO)",
+        "url": "https://corporatefinanceinstitute.com/resources/financial-modeling/leveraged-buyout-lbo/"
+      },
+      {
+        "title": "Aswath Damodaran \u2014 Valuation resources, NYU Stern",
+        "url": "https://pages.stern.nyu.edu/~adamodar/"
+      },
+      {
+        "title": "SEC \u2014 EDGAR full-text search of company filings",
+        "url": "https://www.sec.gov/edgar/search/"
+      }
+    ]
+  },
+  {
+    "slug": "irr-and-moic",
+    "topic": "lbo",
+    "chapter": 3,
+    "title": "IRR and MOIC",
+    "summary": "Two return measures that disagree, and the one question each of them actually answers.",
+    "track": "advanced",
+    "order": 18,
+    "xp": 160,
+    "minutes": 12,
+    "sources": [
+      {
+        "title": "Corporate Finance Institute \u2014 Leveraged Buyout (LBO)",
+        "url": "https://corporatefinanceinstitute.com/resources/financial-modeling/leveraged-buyout-lbo/"
+      },
+      {
+        "title": "Aswath Damodaran \u2014 Valuation resources, NYU Stern",
+        "url": "https://pages.stern.nyu.edu/~adamodar/"
+      },
+      {
+        "title": "Federal Reserve \u2014 Selected interest rates (H.15)",
+        "url": "https://www.federalreserve.gov/releases/h15/"
+      }
+    ]
+  },
+  {
+    "slug": "when-leverage-breaks",
+    "topic": "lbo",
+    "chapter": 4,
+    "title": "When leverage breaks",
+    "summary": "Covenants, the fixed charge that does not care about the cycle, and how buyouts fail.",
+    "track": "advanced",
+    "order": 19,
+    "xp": 160,
+    "minutes": 12,
+    "sources": [
+      {
+        "title": "SEC \u2014 Investor.gov: Bonds",
+        "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/bonds-or-fixed-income-products"
+      },
+      {
+        "title": "Corporate Finance Institute \u2014 Leveraged Buyout (LBO)",
+        "url": "https://corporatefinanceinstitute.com/resources/financial-modeling/leveraged-buyout-lbo/"
+      },
+      {
+        "title": "Federal Reserve \u2014 Selected interest rates (H.15)",
+        "url": "https://www.federalreserve.gov/releases/h15/"
+      }
+    ]
+  },
+  {
+    "slug": "how-companies-borrow",
+    "topic": "capital-raising",
+    "chapter": 1,
+    "title": "How companies borrow",
+    "summary": "Loans, bonds, and revolvers \u2014 who lends, on what terms, and what happens in a default.",
+    "track": "beginner",
+    "order": 20,
+    "xp": 120,
+    "minutes": 11,
+    "sources": [
+      {
+        "title": "SEC \u2014 Investor.gov: Bonds",
+        "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/bonds-or-fixed-income-products"
+      },
+      {
+        "title": "Reserve Bank of India",
+        "url": "https://www.rbi.org.in/"
+      },
+      {
+        "title": "Zerodha Varsity \u2014 Currency, Commodity and Government Securities",
+        "url": "https://zerodha.com/varsity/module/commodities-currency-government-securities/"
+      }
+    ]
+  },
+  {
+    "slug": "the-ipo-process",
+    "topic": "capital-raising",
+    "chapter": 2,
+    "title": "The IPO process",
+    "summary": "Filing to listing, book-building, and why the first-day pop is not a compliment.",
+    "track": "intermediate",
+    "order": 21,
+    "xp": 140,
+    "minutes": 13,
+    "sources": [
+      {
+        "title": "SEC \u2014 Updated Investor Bulletin: Investing in an IPO",
+        "url": "https://www.sec.gov/oiea/investor-alerts-and-bulletins/updated-investor-bulletin-investing-ipo"
+      },
+      {
+        "title": "SEBI \u2014 Securities and Exchange Board of India",
+        "url": "https://www.sebi.gov.in/"
+      },
+      {
+        "title": "Zerodha Varsity \u2014 Introduction to Stock Markets",
+        "url": "https://zerodha.com/varsity/module/introduction-to-stock-markets/"
+      }
+    ]
+  },
+  {
+    "slug": "credit-ratings",
+    "topic": "capital-raising",
+    "chapter": 3,
+    "title": "Credit ratings and what they are not",
+    "summary": "An opinion on default risk, paid for by the issuer, with a documented history of being wrong.",
+    "track": "intermediate",
+    "order": 22,
+    "xp": 140,
+    "minutes": 11,
+    "sources": [
+      {
+        "title": "SEC \u2014 Office of Credit Ratings",
+        "url": "https://www.sec.gov/about/divisions-offices/office-credit-ratings"
+      },
+      {
+        "title": "SEC \u2014 Investor.gov: Bonds",
+        "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/bonds-or-fixed-income-products"
+      },
+      {
+        "title": "Reserve Bank of India",
+        "url": "https://www.rbi.org.in/"
+      }
+    ]
+  },
+  {
+    "slug": "underwriting-and-fees",
+    "topic": "capital-raising",
+    "chapter": 4,
+    "title": "Underwriting, syndication and fees",
+    "summary": "Who carries the risk of an unsold issue, and what the gross spread pays for.",
+    "track": "advanced",
+    "order": 23,
+    "xp": 160,
+    "minutes": 11,
+    "sources": [
+      {
+        "title": "SEC \u2014 Updated Investor Bulletin: Investing in an IPO",
+        "url": "https://www.sec.gov/oiea/investor-alerts-and-bulletins/updated-investor-bulletin-investing-ipo"
+      },
+      {
+        "title": "SEC \u2014 Capital Raising Building Blocks: Broker-Dealers",
+        "url": "https://www.sec.gov/resources-small-businesses/capital-raising-building-blocks/broker-dealers"
+      },
+      {
+        "title": "Zerodha Varsity \u2014 Markets and Taxation",
+        "url": "https://zerodha.com/varsity/module/markets-and-taxation/"
+      }
+    ]
+  }
+]

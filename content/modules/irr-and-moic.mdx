@@ -1,0 +1,91 @@
+Two numbers describe the outcome of a buyout, and they routinely disagree. Knowing which
+question each answers stops you being misled by whichever one a sponsor chose to put on
+the slide.
+
+## MOIC
+
+**Multiple on invested capital.** Total cash returned divided by total cash invested.
+
+Invest ₹300 crore, receive ₹1,100 crore, MOIC is 3.7x.
+
+It is blunt and honest: how many times did I get my money back? It says nothing at all
+about how long that took.
+
+## IRR
+
+**Internal rate of return.** The annualised rate at which the investment compounded. It
+is the discount rate that makes the present value of all cash flows equal zero — there
+is no closed-form solution, so it is solved numerically.
+
+For a single investment and a single exit, the relationship is simple:
+
+    IRR = MOIC^(1/years) − 1
+
+3.7x over five years is 29.9% a year. The same 3.7x over eight years is 17.8%.
+
+## Why they disagree
+
+Consider two deals:
+
+| | Deal A | Deal B |
+|---|---|---|
+| Invested | ₹300 crore | ₹300 crore |
+| Returned | ₹600 crore | ₹900 crore |
+| Years held | 2 | 7 |
+| MOIC | 2.0x | 3.0x |
+| IRR | 41.4% | 17.0% |
+
+Deal B returned half as much again in absolute terms. Deal A compounded at more than
+twice the rate. Neither is wrong; they answer different questions.
+
+**MOIC asks: how much money did I make?**
+**IRR asks: how hard did my money work per year?**
+
+<Callout type="warning" title="How IRR gets flattered">
+IRR is sensitive to timing, and that sensitivity can be engineered without improving the
+business.
+
+**Early distributions.** A dividend recapitalisation — borrowing more against the
+company and paying the proceeds to the sponsor — returns cash sooner. IRR rises sharply.
+The company is now carrying more debt and is more fragile, which IRR does not show.
+
+**Subscription lines.** A fund borrows short-term to pay for an investment and calls
+capital from its investors months later. The clock on IRR starts when investors' money
+is actually drawn, so delaying the call raises the reported IRR without changing a thing
+about the underlying deal.
+
+**Fast flips.** A quick sale at a modest multiple can post a spectacular IRR. It also
+returns little money, and the investor now has to find somewhere else to put it.
+
+None of this is fraud, and all of it is why serious investors read MOIC and IRR
+together, alongside the holding period.
+</Callout>
+
+## What the sponsor is aiming for
+
+Buyout funds have historically targeted something like 20–25% gross IRR and 2.0–3.0x
+MOIC over a three-to-five-year hold. Those are targets, not outcomes, and the dispersion
+between funds is wide.
+
+Note also that gross returns are not what investors receive. Management fees, typically
+charged on committed capital, and carried interest, typically around 20% of gains above
+a hurdle, sit between gross and net. The gap is substantial and it is why the
+distinction matters.
+
+## Working backwards
+
+In practice sponsors use the arithmetic in reverse. Fix the required return, fix a
+realistic exit multiple, and solve for the entry price you can afford. The model does
+not tell you what the company is worth; it tells you the most you can pay and still hit
+your target.
+
+That is a genuinely different question from the one a DCF answers, and it explains why a
+sponsor and a strategic buyer bidding for the same asset can arrive at very different
+numbers without either being irrational.
+
+## What to take away
+
+1. MOIC measures how much; IRR measures how fast. Read them together.
+2. The bridge for a single investment is IRR = MOIC^(1/years) − 1.
+3. IRR can be raised by timing alone — dividend recaps, subscription lines, fast flips.
+4. Sponsors solve backwards from a required return to a maximum entry price.

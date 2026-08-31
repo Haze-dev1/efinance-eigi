@@ -1,0 +1,64 @@
+{
+  "slug": "sell-side-and-buy-side",
+  "questions": [
+    {
+      "id": "q1",
+      "kind": "mcq",
+      "prompt": "An investment bank's trading desk buys ₹200 crore of corporate bonds to hold in inventory. Which side is the bank on for that trade?",
+      "choices": [
+        "Buy-side, because it is buying",
+        "Sell-side — the label describes its role as manufacturer and distributor, not the direction of a trade",
+        "Neither; proprietary trades sit outside the classification",
+        "It switches to buy-side for as long as it holds the position"
+      ],
+      "answer": 1,
+      "explanation": "Sell-side. The label describes the firm's role in the system — creating, distributing and making markets in securities — not which way any individual trade went."
+    },
+    {
+      "id": "q2",
+      "kind": "mcq",
+      "prompt": "A company needs a bank that can commit $8bn of financing on the day it signs a deal. Which type of firm can do that?",
+      "choices": [
+        "An independent advisory boutique, since it has no conflicts",
+        "A sector boutique with deep industry knowledge",
+        "A bulge bracket bank, because it has the balance sheet to lend",
+        "Any of them — committed financing is arranged by the client's own lenders"
+      ],
+      "answer": 2,
+      "explanation": "A bulge bracket. Independent boutiques deliberately have no balance sheet — that absence is their pitch — so they cannot underwrite or commit financing."
+    },
+    {
+      "id": "q3",
+      "kind": "mcq",
+      "prompt": "A bank's pitch claims it is 'the number one adviser in Indian mid-market healthcare M&A by deal count'. What should you check first?",
+      "choices": [
+        "Whether the ranking was audited by the exchange",
+        "The qualifiers — country, sector, size band and metric are where the ranking was won",
+        "Whether the bank is bulge bracket or boutique",
+        "The bank's own share price over the same period"
+      ],
+      "answer": 1,
+      "explanation": "The qualifiers. League tables can be sliced until a firm leads one, and deal count measures volume rather than how well the clients did."
+    },
+    {
+      "id": "q4",
+      "kind": "true_false",
+      "prompt": "Buy-side firms typically earn a percentage of assets under management annually, whether or not markets rise.",
+      "answer": true,
+      "explanation": "True. Buy-side revenue is largely a recurring fee on assets, sometimes with a performance fee on top — unlike sell-side revenue, which is transactional and close to zero in a quiet quarter."
+    },
+    {
+      "id": "q5",
+      "kind": "long_answer",
+      "prompt": "A founder is choosing between a bulge bracket bank and an independent advisory boutique to sell her company. Set out the real trade-off, and explain what each firm's fee model means for the advice she will receive.",
+      "rubric": [
+        "Identifies that the bulge bracket brings a balance sheet, underwriting and distribution reach the boutique does not have",
+        "Identifies the boutique's pitch as fewer conflicts, because it has no securities to sell and no lending relationship to protect",
+        "Notes that sell-side advisory fees are largely contingent on completion, giving both firms a structural interest in a deal happening",
+        "Draws the consequence: advice to transact should be weighed knowing the adviser is paid mainly if she transacts",
+        "Reaches a reasoned position rather than declaring one option universally better — e.g. deal size, financing need, and sector depth decide it"
+      ],
+      "maxScore": 5
+    }
+  ]
+}

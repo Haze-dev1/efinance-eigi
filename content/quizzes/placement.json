@@ -1,0 +1,71 @@
+{
+  "slug": "placement",
+  "questions": [
+    {
+      "id": "p1",
+      "kind": "mcq",
+      "prompt": "What does an investment bank's M&A team primarily do?",
+      "choices": [
+        "Manages retail savings accounts",
+        "Advises companies on buying, selling, and merging with other companies",
+        "Sets interest rates for the banking system",
+        "Approves consumer loan applications"
+      ],
+      "answer": 1,
+      "explanation": "M&A advises corporate clients on acquisitions, disposals, and mergers."
+    },
+    {
+      "id": "p2",
+      "kind": "mcq",
+      "prompt": "What is EBITDA?",
+      "choices": [
+        "Earnings before interest, taxes, depreciation and amortisation",
+        "Equity backed by total debt and assets",
+        "Estimated book to distributed asset ratio",
+        "Earnings before internal transfers and dividend allocation"
+      ],
+      "answer": 0,
+      "explanation": "Earnings Before Interest, Taxes, Depreciation and Amortisation — a rough proxy for operating cash generation."
+    },
+    {
+      "id": "p3",
+      "kind": "mcq",
+      "prompt": "In a discounted cash flow valuation, what does WACC represent?",
+      "choices": [
+        "The growth rate applied after the forecast period",
+        "The blended required return of all capital providers, used as the discount rate",
+        "Working capital adjusted for cyclicality",
+        "The weighted average of comparable company trading multiples"
+      ],
+      "answer": 1,
+      "explanation": "Weighted Average Cost of Capital — the blended cost of equity and debt, used to discount unlevered free cash flows."
+    },
+    {
+      "id": "p4",
+      "kind": "mcq",
+      "prompt": "In a leveraged buyout, the largest single driver of sponsor returns is usually:",
+      "choices": [
+        "The dividend yield during the holding period",
+        "Multiple expansion between entry and exit",
+        "Debt paydown from operating cash flow, plus growth in operating profit",
+        "Reduction in the corporate tax rate over the holding period"
+      ],
+      "answer": 2,
+      "explanation": "Deleveraging and EBITDA growth typically dominate. Multiple expansion helps but is not something a sponsor can underwrite."
+    },
+    {
+      "id": "p5",
+      "kind": "true_false",
+      "prompt": "Buying shares on a stock exchange sends money to the company that issued them.",
+      "answer": false,
+      "explanation": "False. Exchange trading is secondary — the money goes to the selling investor, not the company."
+    },
+    {
+      "id": "p6",
+      "kind": "true_false",
+      "prompt": "Enterprise value is normally calculated as equity value plus net debt.",
+      "answer": true,
+      "explanation": "True. Enterprise value = equity value + debt − cash, i.e. equity value plus net debt (with adjustments for items such as minority interests)."
+    }
+  ]
+}

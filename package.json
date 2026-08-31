@@ -1,0 +1,27 @@
+{
+  "name": "efinance",
+  "private": true,
+  "workspaces": [
+    "web",
+    "server"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "concurrently -n web,api -c cyan,magenta \"npm:dev -w web\" \"npm:dev -w server\"",
+    "build": "npm run build --workspaces --if-present",
+    "test": "npm run test --workspaces --if-present",
+    "lint": "npm run lint --workspaces --if-present && prettier --check ."
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "prettier": "^3.4.2"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true,
+    "esbuild@0.18.20": true,
+    "esbuild@0.25.12": true
+  },
+  "version": "1.0.0"
+}
