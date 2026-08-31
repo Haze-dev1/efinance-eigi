@@ -1,0 +1,64 @@
+{
+  "slug": "antitrust-and-regulatory-review",
+  "questions": [
+    {
+      "id": "q1",
+      "kind": "mcq",
+      "prompt": "Whose interests is a competition regulator required to protect when reviewing a merger?",
+      "choices": [
+        "The shareholders of both merging companies",
+        "Consumers and the competitive process",
+        "Employees of the target company",
+        "The lenders financing the transaction"
+      ],
+      "answer": 1,
+      "explanation": "The mandate is competition and consumers. Whether the deal is good for the merging parties is not the question being asked."
+    },
+    {
+      "id": "q2",
+      "kind": "mcq",
+      "prompt": "Why is market definition the most heavily contested step in a merger review?",
+      "choices": [
+        "Because it determines which agency has jurisdiction",
+        "Because it largely determines the answer \u2014 a narrow definition makes shares look concentrated and a broad one does not",
+        "Because it sets the level of the filing fee",
+        "Because it decides whether remedies are structural or behavioural"
+      ],
+      "answer": 1,
+      "explanation": "Define the market narrowly and the combined share looks dominant; define it broadly and it does not. Both sides spend heavily on economists arguing precisely this."
+    },
+    {
+      "id": "q3",
+      "kind": "mcq",
+      "prompt": "Which merger type attracts the most scrutiny, and why?",
+      "choices": [
+        "Conglomerate, because the businesses are unrelated",
+        "Vertical, because of foreclosure concerns",
+        "Horizontal, because it removes a direct competitor",
+        "All three are reviewed identically"
+      ],
+      "answer": 2,
+      "explanation": "Combining direct competitors is the most direct way to reduce competition, so horizontal mergers receive the closest examination."
+    },
+    {
+      "id": "q4",
+      "kind": "true_false",
+      "prompt": "Closing a deal before the mandatory waiting period expires is an offence in its own right, separate from the merger's competitive effects.",
+      "answer": true,
+      "explanation": "True. This is gun jumping, and it is penalised independently of whatever the regulator eventually concludes about the transaction."
+    },
+    {
+      "id": "q5",
+      "kind": "long_answer",
+      "prompt": "Your client's merger has significant overlap with the target and antitrust risk is real. Explain what the reverse break fee is for, why the target will fight hard over it, and what the negotiation reveals.",
+      "rubric": [
+        "Defines the reverse break fee as a payment from buyer to target if the deal fails on regulatory grounds",
+        "Explains the target's real losses from a failed deal \u2014 a year off the market, disclosure to staff and customers, operating under restrictions",
+        "Notes that regulatory risk is largely outside the target's control, which is why it prices it into the agreement",
+        "Observes that how hard each side fights over the number reveals what they privately believe the risk to be",
+        "Mentions possible outcomes shaping the negotiation: unconditional clearance, structural or behavioural remedies, or prohibition"
+      ],
+      "maxScore": 5
+    }
+  ]
+}

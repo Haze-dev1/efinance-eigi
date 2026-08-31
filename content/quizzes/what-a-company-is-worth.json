@@ -1,0 +1,64 @@
+{
+  "slug": "what-a-company-is-worth",
+  "questions": [
+    {
+      "id": "q1",
+      "kind": "mcq",
+      "prompt": "Two shops each earn \u20b910 crore a year. Shop A has no debt and \u20b95 crore cash, equity value \u20b9100 crore. Shop B has \u20b940 crore debt, no cash, equity value \u20b960 crore. Which is cheaper?",
+      "choices": [
+        "Shop B, at roughly half the equity value",
+        "Neither \u2014 enterprise values are \u20b995 crore and \u20b9100 crore, so they are priced almost identically",
+        "Shop A, because it carries no debt risk",
+        "Impossible to say without the share counts"
+      ],
+      "answer": 1,
+      "explanation": "Enterprise value = equity value + debt \u2212 cash. Shop A is 100 + 0 \u2212 5 = \u20b995 crore; Shop B is 60 + 40 \u2212 0 = \u20b9100 crore. The equity gap is a financing difference, not a pricing one."
+    },
+    {
+      "id": "q2",
+      "kind": "mcq",
+      "prompt": "Why do precedent transaction valuations usually produce the highest of the three ranges?",
+      "choices": [
+        "Transactions are recorded before tax while comparables are after tax",
+        "Because acquirers pay a premium for control",
+        "Because they include the target's cash twice",
+        "Because they are based on forecasts rather than historical figures"
+      ],
+      "answer": 1,
+      "explanation": "Buyers pay a control premium above the traded price, so the multiples implied by completed deals sit above those of listed comparables."
+    },
+    {
+      "id": "q3",
+      "kind": "mcq",
+      "prompt": "Which is the clearest weakness of relative valuation using comparable companies?",
+      "choices": [
+        "It ignores the target's debt entirely",
+        "It requires forecasting ten years of cash flows",
+        "It inherits whatever mispricing the market currently has",
+        "It cannot be applied to listed companies"
+      ],
+      "answer": 2,
+      "explanation": "Comps are anchored to current market prices. In a bubble they say everything is worth a bubble price, because that is what the market is paying."
+    },
+    {
+      "id": "q4",
+      "kind": "true_false",
+      "prompt": "A 'football field' chart showing several valuation ranges means the banker could not decide on a number.",
+      "answer": false,
+      "explanation": "False. Each method answers a different question \u2014 intrinsic worth, current market pricing, and price paid for control \u2014 so the spread between them is informative rather than indecisive."
+    },
+    {
+      "id": "q5",
+      "kind": "long_answer",
+      "prompt": "A client insists your valuation is wrong because the share price is different. Explain the distinction between price and value, and describe how you would work out whether the gap is an opportunity or an error in your model.",
+      "rubric": [
+        "Distinguishes price (observable, the outcome of opinions colliding) from value (an estimate on stated assumptions)",
+        "States that a gap does not by itself prove either the model or the market wrong",
+        "Describes identifying which specific assumptions differ from the market's implied ones \u2014 growth, margins, discount rate",
+        "Notes that a DCF can be pushed to almost any answer, so checking one's own assumptions comes first",
+        "Reaches a practical conclusion: the gap is a prompt to locate the disagreement, not a verdict"
+      ],
+      "maxScore": 5
+    }
+  ]
+}

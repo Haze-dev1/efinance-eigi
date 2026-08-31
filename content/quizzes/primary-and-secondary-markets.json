@@ -1,0 +1,64 @@
+{
+  "slug": "primary-and-secondary-markets",
+  "questions": [
+    {
+      "id": "q1",
+      "kind": "mcq",
+      "prompt": "You buy 100 shares of a listed company on the exchange. How much reaches the company?",
+      "choices": [
+        "The full purchase price",
+        "The purchase price less brokerage and exchange fees",
+        "Nothing — the money goes to the investor who sold you the shares",
+        "It depends on whether the company has an active buyback"
+      ],
+      "answer": 2,
+      "explanation": "Nothing. Exchange trading is the secondary market: the company is not a party to the transaction and receives no proceeds."
+    },
+    {
+      "id": "q2",
+      "kind": "mcq",
+      "prompt": "An IPO prospectus shows ₹500 crore of fresh issue and ₹1,500 crore offer for sale. What does the company receive?",
+      "choices": [
+        "₹2,000 crore, the full issue size",
+        "₹500 crore — only the fresh issue creates new shares and funds the company",
+        "₹1,500 crore, with the fresh issue going to selling shareholders",
+        "Nothing, because all IPO proceeds go to existing shareholders"
+      ],
+      "answer": 1,
+      "explanation": "₹500 crore. Fresh issue creates new shares and funds the company; the offer-for-sale component pays existing shareholders who are selling their own holdings."
+    },
+    {
+      "id": "q3",
+      "kind": "mcq",
+      "prompt": "Secondary trading sends the company no money. Why does a falling share price still constrain it?",
+      "choices": [
+        "The company must compensate shareholders for realised losses",
+        "Exchanges raise listing fees when a share price falls",
+        "Future raises are priced off the market price, so a lower price means more dilution for the same money",
+        "A falling price automatically triggers a mandatory rights issue"
+      ],
+      "answer": 2,
+      "explanation": "New issues are priced relative to the prevailing market price. A lower price means more shares must be sold to raise the same amount, diluting existing owners further."
+    },
+    {
+      "id": "q4",
+      "kind": "true_false",
+      "prompt": "SEBI approval of an offer document means the regulator considers the shares fairly priced.",
+      "answer": false,
+      "explanation": "False. SEBI and the SEC both conduct disclosure review, not merit review. Approval means the risks were disclosed adequately — it is not a view on price or quality."
+    },
+    {
+      "id": "q5",
+      "kind": "long_answer",
+      "prompt": "A founder tells you her company's share price doubled this year, so 'we have twice as much money to spend'. Explain what she has confused, and set out two concrete ways the higher price does genuinely help her.",
+      "rubric": [
+        "Identifies the core error: secondary market appreciation transfers value between investors and sends the company no cash",
+        "States that the company's cash position is unchanged by the price move",
+        "Gives a genuine benefit involving raising capital: a future issue is priced off the market price, so the same money costs fewer shares and less dilution",
+        "Gives a second genuine benefit, such as stock as acquisition currency, employee options and retention, or reduced takeover vulnerability",
+        "Distinguishes clearly between the company's cash and its shareholders' paper wealth"
+      ],
+      "maxScore": 5
+    }
+  ]
+}

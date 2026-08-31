@@ -1,0 +1,64 @@
+{
+  "slug": "how-a-deal-actually-runs",
+  "questions": [
+    {
+      "id": "q1",
+      "kind": "mcq",
+      "prompt": "A seller chooses a targeted process with three buyers instead of a broad auction. What is being traded away?",
+      "choices": [
+        "Legal certainty, since bilateral deals cannot be enforced",
+        "Competitive tension, and with it likely price",
+        "The ability to conduct due diligence",
+        "The right to a break fee"
+      ],
+      "answer": 1,
+      "explanation": "A broad auction maximises price through competition; a targeted process buys confidentiality and speed at the cost of that tension."
+    },
+    {
+      "id": "q2",
+      "kind": "mcq",
+      "prompt": "Why do sellers grant exclusivity late and for a short period?",
+      "choices": [
+        "Regulators require exclusivity to be limited by statute",
+        "Because leverage shifts to the buyer the moment competition ends",
+        "Because exclusivity triggers the antitrust waiting period",
+        "Because the data room cannot open until exclusivity is granted"
+      ],
+      "answer": 1,
+      "explanation": "Once other bidders are gone, the buyer can renegotiate knowing the seller has no alternative. Sellers therefore delay exclusivity and keep it brief."
+    },
+    {
+      "id": "q3",
+      "kind": "mcq",
+      "prompt": "A deal is signed and announced. What still stands between it and completion?",
+      "choices": [
+        "Nothing \u2014 signing transfers ownership",
+        "Only the payment of the purchase price",
+        "Conditions precedent: regulatory approvals, shareholder votes and third-party consents",
+        "A second round of binding offers"
+      ],
+      "answer": 2,
+      "explanation": "Signing agrees the deal; closing completes it. The gap holds the conditions, and it is where regulators intervene and financing can disappear."
+    },
+    {
+      "id": "q4",
+      "kind": "true_false",
+      "prompt": "Due diligence most often terminates a deal outright rather than changing its terms.",
+      "answer": false,
+      "explanation": "False. Diligence far more commonly moves the price or converts a discovered problem into a specific indemnity in the purchase agreement."
+    },
+    {
+      "id": "q5",
+      "kind": "long_answer",
+      "prompt": "Explain to a founder what happens between signing and closing, why that period exists, and which contractual terms determine what happens if the deal falls apart during it.",
+      "rubric": [
+        "Describes the conditions precedent that must be satisfied: regulatory and antitrust clearance, shareholder approval, third-party consents",
+        "States that signing agrees the deal while closing completes it, and that ownership does not transfer at signing",
+        "Explains that the gap is where deals die \u2014 regulatory objection, financing markets turning, or loss of nerve",
+        "Names the relevant terms: termination provisions, break fees, and specifically the reverse break fee for regulatory failure",
+        "Notes the practical cost to the seller of a failed deal \u2014 time off the market, disclosed to staff and customers, operating under restrictions"
+      ],
+      "maxScore": 5
+    }
+  ]
+}

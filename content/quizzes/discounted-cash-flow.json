@@ -1,0 +1,59 @@
+{
+  "slug": "discounted-cash-flow",
+  "questions": [
+    {
+      "id": "q1",
+      "kind": "mcq",
+      "prompt": "A DCF discounts unlevered free cash flow. What does the result give you directly?",
+      "choices": [
+        "Equity value",
+        "Enterprise value",
+        "Market capitalisation",
+        "Net asset value"
+      ],
+      "answer": 1,
+      "explanation": "Unlevered free cash flow is measured before payments to lenders, so it belongs to all capital providers. Discounting it gives enterprise value, and you must then bridge to equity value."
+    },
+    {
+      "id": "q2",
+      "kind": "mcq",
+      "prompt": "A model shows revenue doubling over five years with capital expenditure held flat and no increase in working capital. What is wrong?",
+      "choices": [
+        "Nothing \u2014 operating leverage means costs need not rise with revenue",
+        "Growth requires investment; capex and working capital must rise to support it",
+        "Depreciation should have been excluded from the forecast entirely",
+        "The forecast horizon is too short to matter"
+      ],
+      "answer": 1,
+      "explanation": "Growth has to be paid for. Capex and working capital are exactly where optimistic models cheat, because cutting them raises free cash flow without any stated justification."
+    },
+    {
+      "id": "q3",
+      "kind": "mcq",
+      "prompt": "You have an enterprise value of \u20b91,000 crore, debt of \u20b9300 crore, cash of \u20b950 crore and 10 crore shares. What is the value per share?",
+      "choices": ["\u20b9100", "\u20b975", "\u20b9125", "\u20b970"],
+      "answer": 1,
+      "explanation": "Equity value = 1,000 \u2212 300 + 50 = \u20b9750 crore. Divided by 10 crore shares that is \u20b975. Dividing enterprise value by share count would wrongly credit shareholders with the lenders' claim."
+    },
+    {
+      "id": "q4",
+      "kind": "true_false",
+      "prompt": "For a growing company, terminal value is typically a minority of the total DCF value.",
+      "answer": false,
+      "explanation": "False. Terminal value is routinely 60\u201380% of the total. The years you can forecast with confidence contribute least, which is the honest tension in a DCF."
+    },
+    {
+      "id": "q5",
+      "kind": "long_answer",
+      "prompt": "You are handed a DCF that values a company 40% above its market price. Describe exactly which inputs you would check first and why, and explain what a gap of that size does and does not prove.",
+      "rubric": [
+        "Names the three high-leverage inputs: revenue growth (and how long it runs), terminal growth rate, and discount rate",
+        "Explains why each matters \u2014 small nudges compound, and terminal value dominates the total",
+        "Checks that capital expenditure and working capital rise with the growth being forecast",
+        "States that a gap does not prove the market wrong; it locates a disagreement in assumptions",
+        "Describes the useful response: identify which assumption differs from the market's implied view and whether there is a reason to hold it"
+      ],
+      "maxScore": 5
+    }
+  ]
+}

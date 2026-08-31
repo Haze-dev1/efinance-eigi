@@ -1,0 +1,64 @@
+{
+  "slug": "debt-versus-equity",
+  "questions": [
+    {
+      "id": "q1",
+      "kind": "mcq",
+      "prompt": "A company is wound up. In what order are these claims paid?",
+      "choices": [
+        "Ordinary shareholders, then bondholders, then secured lenders",
+        "Secured lenders, then unsecured lenders, then preference shares, then ordinary shareholders",
+        "All creditors and shareholders share the proceeds pro rata",
+        "Preference shares rank ahead of secured lenders because they are contractual"
+      ],
+      "answer": 1,
+      "explanation": "Secured lenders first against pledged assets, then unsecured and subordinated debt, then preference shares, and ordinary shareholders last. Each level is paid in full before the next receives anything."
+    },
+    {
+      "id": "q2",
+      "kind": "mcq",
+      "prompt": "Why do lenders accept a lower expected return than shareholders?",
+      "choices": [
+        "Lenders are legally barred from earning equity-like returns",
+        "Their claim is senior and their return is capped, so they carry less risk",
+        "Interest rates are set by the regulator while dividends are not",
+        "Lenders hold for shorter periods, so they need less compensation"
+      ],
+      "answer": 1,
+      "explanation": "Seniority and a capped return mean less risk, and required return is simply risk seen from the other end. Shareholders sit last in the waterfall and demand more for it."
+    },
+    {
+      "id": "q3",
+      "kind": "mcq",
+      "prompt": "A profitable company with volatile revenue is deciding how much debt to take on. What is the central risk it is accepting?",
+      "choices": [
+        "That lenders will gain voting control of the board immediately",
+        "That the tax shield reverses and interest becomes taxable",
+        "That a fixed obligation must be met on schedule regardless of how the quarter went",
+        "That its share price will automatically fall by the amount borrowed"
+      ],
+      "answer": 2,
+      "explanation": "Debt converts a variable cost into a fixed one. A coupon is due whether or not the business had a good quarter, and missing it is a default — at which point control of the outcome moves to creditors."
+    },
+    {
+      "id": "q4",
+      "kind": "true_false",
+      "prompt": "Skipping a dividend and skipping a coupon payment have broadly the same legal consequence.",
+      "answer": false,
+      "explanation": "False. Skipping a dividend disappoints shareholders but breaches no promise. Missing a coupon is a default, and it hands control of what happens next to creditors."
+    },
+    {
+      "id": "q5",
+      "kind": "long_answer",
+      "prompt": "'Debt is cheaper than equity, so a company should fund itself entirely with debt.' Explain what is genuinely right about the premise and why the conclusion does not follow.",
+      "rubric": [
+        "Concedes debt is genuinely cheaper: the claim is senior and the return is capped, so lenders accept less",
+        "Mentions the tax shield — interest is generally deductible, so part of the cost is effectively subsidised",
+        "Explains that cheapness is partly compensation for risk moving elsewhere, not risk disappearing",
+        "Identifies the fixed obligation as the mechanism of failure: coupons are due regardless of trading conditions, and a missed one is a default",
+        "Concludes that an optimum sits between the extremes, with tax favouring debt and distress costs opposing it"
+      ],
+      "maxScore": 5
+    }
+  ]
+}

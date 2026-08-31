@@ -1,0 +1,64 @@
+{
+  "slug": "exchanges-and-regulators",
+  "questions": [
+    {
+      "id": "q1",
+      "kind": "mcq",
+      "prompt": "Your counterparty on an exchange trade goes bankrupt before settlement. What normally protects you?",
+      "choices": [
+        "The regulator compensates investors from a statutory fund",
+        "A clearing corporation stands between the two sides and guarantees settlement",
+        "The trade is voided and both sides walk away",
+        "Your broker is personally liable for the counterparty's failure"
+      ],
+      "answer": 1,
+      "explanation": "The clearing corporation interposes itself between buyer and seller, which is why you never have to assess a stranger's creditworthiness before trading."
+    },
+    {
+      "id": "q2",
+      "kind": "mcq",
+      "prompt": "SEBI clears a company's offer document. What has SEBI actually concluded?",
+      "choices": [
+        "That the shares are reasonably priced",
+        "That the company is financially sound enough to list",
+        "That the risks have been disclosed adequately and in the prescribed form",
+        "That the company's auditors have certified future projections"
+      ],
+      "answer": 2,
+      "explanation": "Disclosure review, not merit review. Clearance means you were told enough about how you might lose money — it is not an opinion on whether you will."
+    },
+    {
+      "id": "q3",
+      "kind": "mcq",
+      "prompt": "Which of these is a function of an exchange rather than a regulator?",
+      "choices": [
+        "Enforcing insider trading law",
+        "Registering brokers and intermediaries",
+        "Providing continuous price discovery and liquidity",
+        "Prescribing the format of an offer document"
+      ],
+      "answer": 2,
+      "explanation": "Price discovery and liquidity are what an exchange provides. Registration, enforcement and disclosure formats are the regulator's job."
+    },
+    {
+      "id": "q4",
+      "kind": "true_false",
+      "prompt": "Regulatory oversight is heaviest at the moment a security is first issued to the public.",
+      "answer": true,
+      "explanation": "True. The information gap between company and investor is widest at issue, so the offer document process is the heavyweight step. Afterwards oversight shifts to ongoing reporting and conduct obligations."
+    },
+    {
+      "id": "q5",
+      "kind": "long_answer",
+      "prompt": "A friend says 'the IPO was approved by the regulator, so it must be a safe investment'. Explain precisely what the approval did and did not establish, and describe one further function — exchange or regulator — that genuinely does protect him.",
+      "rubric": [
+        "States clearly that the review is of disclosure, not merit — the regulator checks that risks were disclosed, not that the investment is sound",
+        "Notes that a cleared offer document is compatible with the investment losing most of its value, and that this is not a regulatory failure",
+        "Explains why the process is heavyweight at issue: the information gap between company and investor is widest there",
+        "Names a genuine protection and says what it does — clearing/settlement guarantee, ongoing disclosure obligations, insider trading enforcement, or listing standards",
+        "Distinguishes the exchange's role from the regulator's rather than treating them as one body"
+      ],
+      "maxScore": 5
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "slug": "sources-and-uses",
+  "questions": [
+    {
+      "id": "q1",
+      "kind": "mcq",
+      "prompt": "In a sources and uses table, which item is typically the 'plug'?",
+      "choices": [
+        "Senior secured debt",
+        "Transaction fees",
+        "Sponsor equity",
+        "The target's existing cash"
+      ],
+      "answer": 2,
+      "explanation": "Lenders set how much debt they will provide, and the sponsor funds whatever remains. Equity is the balancing figure."
+    },
+    {
+      "id": "q2",
+      "kind": "mcq",
+      "prompt": "Which of these belongs in 'uses' but is most often left out of a careless model?",
+      "choices": [
+        "The purchase price of the equity",
+        "Transaction fees, which can run to several percent of enterprise value",
+        "The senior term loan",
+        "Management rollover"
+      ],
+      "answer": 1,
+      "explanation": "Fees are paid at closing from the same pot as the purchase price, so every rupee of fees is sponsor equity that bought nothing. Omitting them flatters the model."
+    },
+    {
+      "id": "q3",
+      "kind": "mcq",
+      "prompt": "Why can the same company support meaningfully different leverage in two different years?",
+      "choices": [
+        "Because EBITDA is recalculated under different accounting standards",
+        "Because lenders set the ceiling, and their appetite moves with the credit cycle",
+        "Because sponsor equity requirements are set by regulation",
+        "Because management rollover changes the enterprise value"
+      ],
+      "answer": 1,
+      "explanation": "The constraint is what lenders will accept on leverage and coverage tests, and that moves with credit conditions \u2014 which is why buyout vintages perform so differently."
+    },
+    {
+      "id": "q4",
+      "kind": "true_false",
+      "prompt": "Management rollover exists mainly to reduce the amount of equity the sponsor must contribute.",
+      "answer": false,
+      "explanation": "False. Its purpose is alignment. A management team with most of its net worth in the equity behaves differently over the holding period from one that has cashed out entirely."
+    },
+    {
+      "id": "q5",
+      "kind": "long_answer",
+      "prompt": "Walk through what belongs on each side of a sources and uses table for a buyout, and explain why the target's existing debt appears in uses and its cash appears in sources.",
+      "rubric": [
+        "Lists the main uses: purchase of equity, refinancing existing debt, transaction fees, and cash left on the balance sheet",
+        "Lists the main sources: senior secured debt, subordinated or high-yield debt, sponsor equity, management rollover, and target cash",
+        "Explains that existing debt usually becomes repayable on a change of control, so it must be funded at closing",
+        "Explains that the target's cash is available to fund the transaction, reducing what must be raised",
+        "States that sources must equal uses and that sponsor equity is the balancing figure"
+      ],
+      "maxScore": 5
+    }
+  ]
+}

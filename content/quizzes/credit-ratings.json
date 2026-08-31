@@ -1,0 +1,64 @@
+{
+  "slug": "credit-ratings",
+  "questions": [
+    {
+      "id": "q1",
+      "kind": "mcq",
+      "prompt": "Why is the boundary between BBB\u2212 and BB+ more consequential than other rating steps?",
+      "choices": [
+        "It is the only step where the agency changes its methodology",
+        "Many institutions are restricted to investment grade, so a downgrade across it forces selling",
+        "Bonds below it cannot legally be traded",
+        "It is the point at which the issuer stops paying for the rating"
+      ],
+      "answer": 1,
+      "explanation": "The line is written into mandates and regulation. Holders below it are often required to sell rather than choosing to, which moves prices far more than the change in default probability alone."
+    },
+    {
+      "id": "q2",
+      "kind": "mcq",
+      "prompt": "Under the dominant ratings model, who pays the agency?",
+      "choices": [
+        "The investors who use the rating",
+        "The exchange on which the security trades",
+        "The issuer being rated",
+        "The securities regulator, from a levy"
+      ],
+      "answer": 2,
+      "explanation": "The issuer pays, which means the agency's customer is the entity whose creditworthiness it is assessing \u2014 a real conflict that reputational incentives and regulatory oversight only partly mitigate."
+    },
+    {
+      "id": "q3",
+      "kind": "mcq",
+      "prompt": "Which question does a credit rating NOT answer?",
+      "choices": [
+        "How likely is this borrower to default?",
+        "How does this borrower's credit risk compare with another's?",
+        "Is this bond attractively priced?",
+        "What might recovery look like if default occurs?"
+      ],
+      "answer": 2,
+      "explanation": "Ratings assess credit risk, not value. A CCC bond can be an excellent investment at a low enough price and a AAA bond a poor one at a high enough price."
+    },
+    {
+      "id": "q4",
+      "kind": "true_false",
+      "prompt": "Large volumes of structured mortgage securities rated AAA defaulted in the 2008 crisis, at rates far beyond what that rating implied.",
+      "answer": true,
+      "explanation": "True. This is documented history and it is the strongest practical argument for treating a rating as an input to your own analysis rather than a conclusion."
+    },
+    {
+      "id": "q5",
+      "kind": "long_answer",
+      "prompt": "An investor says 'it is rated AA, so it is a safe investment at this price'. Identify the two distinct errors and explain what a rating does establish.",
+      "rubric": [
+        "Identifies the first error: conflating credit quality with value, since a rating says nothing about whether the price is fair",
+        "Identifies the second error: treating a rating as a measurement or guarantee rather than one agency's opinion",
+        "States what a rating does express \u2014 a relative opinion on default likelihood, sometimes with expected recovery",
+        "Raises the issuer-pays conflict, or the documented 2008 structured-finance failures, as reason for caution",
+        "Notes what a rating omits \u2014 market risk, liquidity risk, and timing"
+      ],
+      "maxScore": 5
+    }
+  ]
+}

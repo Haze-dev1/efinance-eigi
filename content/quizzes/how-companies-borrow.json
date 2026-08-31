@@ -1,0 +1,59 @@
+{
+  "slug": "how-companies-borrow",
+  "questions": [
+    {
+      "id": "q1",
+      "kind": "mcq",
+      "prompt": "A company expects seasonal working capital swings and wants funding available for bad months. Which instrument fits?",
+      "choices": [
+        "A term loan drawn in full at the start",
+        "A revolving credit facility, paying a commitment fee on the undrawn portion",
+        "Commercial paper rolled over daily",
+        "A high-yield bond with a bullet maturity"
+      ],
+      "answer": 1,
+      "explanation": "A revolver can be drawn, repaid and redrawn as needed. The commitment fee on the undrawn amount is the premium for having the insurance in place."
+    },
+    {
+      "id": "q2",
+      "kind": "mcq",
+      "prompt": "Why is a bond generally harder to restructure than a bank loan?",
+      "choices": [
+        "Bonds are always secured while loans are not",
+        "Bond terms are standardised and holders are dispersed and often anonymous",
+        "Regulators prohibit renegotiating listed bonds",
+        "Bonds have shorter maturities, leaving no time to negotiate"
+      ],
+      "answer": 1,
+      "explanation": "A loan is a private agreement with a short list of lenders to call. A bond is held by many investors on identical standardised terms, so agreement is far harder to reach."
+    },
+    {
+      "id": "q3",
+      "kind": "mcq",
+      "prompt": "A quote of 'benchmark plus 350 basis points' means the borrower's spread is:",
+      "choices": ["0.35%", "3.5%", "35%", "350% of the benchmark"],
+      "answer": 1,
+      "explanation": "A basis point is one hundredth of a percentage point, so 350bp is 3.5% over the benchmark. The spread compensates for that borrower's credit risk, separate from the general level of rates."
+    },
+    {
+      "id": "q4",
+      "kind": "true_false",
+      "prompt": "Lenders usually prefer to enforce security immediately on a covenant breach rather than waive or restructure.",
+      "answer": false,
+      "explanation": "False. A going concern is generally worth more than its liquidated parts, so waivers and restructurings are far more common than enforcement."
+    },
+    {
+      "id": "q5",
+      "kind": "long_answer",
+      "prompt": "A founder asks why her weaker-rated company is being offered a loan with tighter covenants and more security rather than simply a higher interest rate. Explain the logic lenders are applying.",
+      "rubric": [
+        "States the general pattern: the weaker the credit, the more a lender substitutes control for rate",
+        "Explains what covenants do \u2014 maintaining leverage and coverage ratios, limiting further borrowing, asset sales and dividends",
+        "Explains what security does: a claim on specific assets that only matters in default, but is decisive then",
+        "Notes that these terms give the lender early warning and a seat at the table before money is actually missed",
+        "Frames the trade-off for the founder: cheaper borrowing in exchange for less freedom of action"
+      ],
+      "maxScore": 5
+    }
+  ]
+}

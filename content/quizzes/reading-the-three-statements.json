@@ -1,0 +1,64 @@
+{
+  "slug": "reading-the-three-statements",
+  "questions": [
+    {
+      "id": "q1",
+      "kind": "mcq",
+      "prompt": "A company grows revenue 60% a year, is profitable on paper, and runs out of cash. What is the most likely cause?",
+      "choices": [
+        "Depreciation charges exceeding net profit",
+        "Working capital: it pays suppliers and staff before customers pay it",
+        "Dividends being paid faster than profits are earned",
+        "Interest costs exceeding operating profit"
+      ],
+      "answer": 1,
+      "explanation": "Growth consumes cash before it produces it \u2014 inventory is bought and credit extended ahead of collection. That gap is working capital, and it is where fast-growing companies fail."
+    },
+    {
+      "id": "q2",
+      "kind": "mcq",
+      "prompt": "A machine costs \u20b9100 crore and is depreciated over ten years. What happens in year three?",
+      "choices": [
+        "\u20b910 crore of cash leaves the business and profit falls \u20b910 crore",
+        "Profit falls \u20b910 crore but no cash leaves \u2014 the cash went out in year one",
+        "Cash falls \u20b910 crore but profit is unaffected",
+        "Neither profit nor cash is affected until the asset is sold"
+      ],
+      "answer": 1,
+      "explanation": "Depreciation spreads a cost already paid. The \u20b9100 crore left in year one; the annual \u20b910 crore charge reduces profit without moving cash, which is why the cash flow statement adds it back."
+    },
+    {
+      "id": "q3",
+      "kind": "mcq",
+      "prompt": "A company shows rising net profit but persistently negative operating cash flow, funded by new borrowing. What does that pattern suggest?",
+      "choices": [
+        "Healthy growth financed prudently",
+        "That depreciation is being understated",
+        "That reported profit is not converting into cash, and the business is running on borrowed money",
+        "Nothing \u2014 the two figures are unrelated by design"
+      ],
+      "answer": 2,
+      "explanation": "Over several years operating cash flow should broadly track profit. A persistent gap plugged by financing inflows means the business is not funding itself."
+    },
+    {
+      "id": "q4",
+      "kind": "true_false",
+      "prompt": "The closing cash balance on the cash flow statement should equal the cash line on the balance sheet.",
+      "answer": true,
+      "explanation": "True. The statements interlock: profit flows to retained earnings, and the cash flow statement's closing balance is the balance sheet's cash figure. A break in that link is a modelling error."
+    },
+    {
+      "id": "q5",
+      "kind": "long_answer",
+      "prompt": "Explain the saying 'profit is an opinion, cash is a fact' to someone who has just read a company's income statement and concluded the business is healthy. Name at least two specific judgements that shape reported profit.",
+      "rubric": [
+        "Explains that revenue is recognised when earned rather than when received, so profit can exist without cash",
+        "Names at least two real accounting judgements \u2014 revenue recognition timing, depreciation rates and useful life, provisions, or inventory valuation",
+        "States that cash in the bank is checkable while profit depends on those judgements",
+        "Connects this to a practical check: compare operating cash flow to net profit over several years",
+        "Notes that a profitable company can still fail, typically through working capital"
+      ],
+      "maxScore": 5
+    }
+  ]
+}

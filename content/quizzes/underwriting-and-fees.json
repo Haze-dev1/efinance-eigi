@@ -1,0 +1,64 @@
+{
+  "slug": "underwriting-and-fees",
+  "questions": [
+    {
+      "id": "q1",
+      "kind": "mcq",
+      "prompt": "Under a firm commitment underwriting, who bears the risk that the issue does not sell?",
+      "choices": [
+        "The issuer, which receives less than expected",
+        "The underwriting bank, which owns the unsold securities",
+        "The exchange, through its stabilisation fund",
+        "The investors who submitted bids"
+      ],
+      "answer": 1,
+      "explanation": "The bank buys the whole issue and resells it, so the issuer's proceeds are certain. Unsold stock sits on the bank's own book."
+    },
+    {
+      "id": "q2",
+      "kind": "mcq",
+      "prompt": "A bank pays the issuer \u20b995 per share and sells at \u20b9100. What is the gross spread, and which component is usually largest?",
+      "choices": [
+        "\u20b95, mostly the management fee",
+        "\u20b95, mostly the selling concession",
+        "\u20b995, split evenly across the syndicate",
+        "\u20b9100, less the issuer's costs"
+      ],
+      "answer": 1,
+      "explanation": "The spread is \u20b95, or 5%. The selling concession is typically the largest slice, because distribution \u2014 actually reaching investors at scale \u2014 is the scarce capability."
+    },
+    {
+      "id": "q3",
+      "kind": "mcq",
+      "prompt": "Why are large issues syndicated across several banks?",
+      "choices": [
+        "Regulation caps how much any one bank may underwrite",
+        "To spread both the risk position and the distribution reach",
+        "Because only syndicates may use book-building",
+        "To avoid disclosing the gross spread in the offer document"
+      ],
+      "answer": 1,
+      "explanation": "No single bank wants the entire position, and no single bank reaches every investor. Syndication addresses both at once."
+    },
+    {
+      "id": "q4",
+      "kind": "true_false",
+      "prompt": "Gross spreads are typically wider for equity issues than for investment-grade bond issues.",
+      "answer": true,
+      "explanation": "True. Equity is harder to price and harder to place, while a large investment-grade bond from a well-known issuer largely sells itself."
+    },
+    {
+      "id": "q5",
+      "kind": "long_answer",
+      "prompt": "An issuer complains that a 5% gross spread is 'just a fee for paperwork'. Explain what the spread actually buys, and describe the conflict of interest the issuer should understand when the bank advises on price.",
+      "rubric": [
+        "Names risk transfer: under a firm commitment the issuer's proceeds are certain regardless of what the market does",
+        "Names distribution: access to institutional investors the company cannot reach alone",
+        "Names certification and price discovery: the book finds the clearing price, and the bank stakes a reputation it needs for future deals",
+        "Explains the conflict \u2014 a lower price makes the issue easier to place and pleases investors the bank deals with repeatedly, while cutting its own fee only slightly",
+        "Draws a practical conclusion for the issuer rather than alleging dishonesty"
+      ],
+      "maxScore": 5
+    }
+  ]
+}

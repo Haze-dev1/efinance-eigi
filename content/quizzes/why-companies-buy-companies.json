@@ -1,0 +1,64 @@
+{
+  "slug": "why-companies-buy-companies",
+  "questions": [
+    {
+      "id": "q1",
+      "kind": "mcq",
+      "prompt": "A buyer pays a 30% control premium and achieves synergies worth 30% of the target's value. Who has captured the gain?",
+      "choices": [
+        "The buyer's shareholders, through the synergies",
+        "The target's shareholders \u2014 the premium handed them the entire benefit",
+        "Both equally, since the synergies are shared",
+        "Neither; the transaction is value-neutral for everyone"
+      ],
+      "answer": 1,
+      "explanation": "The premium paid equals the synergies created, so the target's shareholders received all of it. The buyer's shareholders took integration risk for nothing."
+    },
+    {
+      "id": "q2",
+      "kind": "mcq",
+      "prompt": "Which type of synergy is generally most reliable, and why?",
+      "choices": [
+        "Revenue synergies, because they scale with the market",
+        "Cost synergies, because they are subtractions you can count \u2014 duplicated roles, offices and systems",
+        "Tax synergies, because they are guaranteed by statute",
+        "Financial synergies, because credit ratings improve automatically"
+      ],
+      "answer": 1,
+      "explanation": "Cost synergies are removals you can enumerate. Revenue synergies depend on customers behaving as hoped, which is far less certain."
+    },
+    {
+      "id": "q3",
+      "kind": "mcq",
+      "prompt": "A conglomerate argues it creates value by diversifying earnings across unrelated businesses. What is the standard objection?",
+      "choices": [
+        "Diversification is prohibited by competition law",
+        "Shareholders can diversify themselves by buying both companies' shares, without paying a control premium",
+        "Unrelated businesses cannot be consolidated in one set of accounts",
+        "Earnings volatility is not measurable across sectors"
+      ],
+      "answer": 1,
+      "explanation": "Investors can replicate the diversification directly and far more cheaply. Doing it on their behalf, at a premium, is why the conglomerate discount exists."
+    },
+    {
+      "id": "q4",
+      "kind": "true_false",
+      "prompt": "Because acquirers pay a control premium, synergies must exceed that premium before the buyer's shareholders are better off.",
+      "answer": true,
+      "explanation": "True. Without synergies exceeding the premium, the buyer has simply paid above market for something the market was already pricing."
+    },
+    {
+      "id": "q5",
+      "kind": "long_answer",
+      "prompt": "A CEO proposes buying a competitor, citing 'scale and synergies'. Set out the questions you would ask to test whether this creates value for your shareholders, and name one motive that might be driving it that would not appear in the board pack.",
+      "rubric": [
+        "Asks what the control premium is, and states that synergies must exceed it",
+        "Separates cost synergies from revenue synergies and asks which they are, noting the difference in reliability",
+        "Tests the scale claim: asks whether the business genuinely has high fixed costs to spread",
+        "Names an unstated motive \u2014 empire building, executive pay tied to size, or deal momentum after months of process",
+        "Frames the correct test: is the target worth more to us than to anyone else, by more than the premium"
+      ],
+      "maxScore": 5
+    }
+  ]
+}

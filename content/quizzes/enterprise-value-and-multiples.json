@@ -1,0 +1,64 @@
+{
+  "slug": "enterprise-value-and-multiples",
+  "questions": [
+    {
+      "id": "q1",
+      "kind": "mcq",
+      "prompt": "Why is EV/Net income a meaningless ratio?",
+      "choices": [
+        "Net income is too volatile to use in any multiple",
+        "Enterprise value covers all capital providers while net income is after interest, so it belongs to shareholders alone",
+        "Enterprise value is a market figure and net income is a book figure",
+        "It double-counts depreciation"
+      ],
+      "answer": 1,
+      "explanation": "Numerator and denominator must refer to the same claimants. EV includes the lenders' claim; net income is what remains after lenders are paid."
+    },
+    {
+      "id": "q2",
+      "kind": "mcq",
+      "prompt": "Two identical businesses differ only in that one is heavily borrowed. Which multiple compares them most fairly?",
+      "choices": [
+        "Price / Earnings",
+        "EV / EBITDA",
+        "Price / Book",
+        "Dividend yield"
+      ],
+      "answer": 1,
+      "explanation": "EV/EBITDA measures the operating business before financing choices. P/E is distorted because interest reduces the borrower's net income."
+    },
+    {
+      "id": "q3",
+      "kind": "mcq",
+      "prompt": "For which business does EBITDA most overstate the cash actually available to investors?",
+      "choices": [
+        "A software company with minimal fixed assets",
+        "A consultancy whose main cost is salaries",
+        "A steel plant with heavy ongoing capital expenditure",
+        "A retailer that leases all its stores"
+      ],
+      "answer": 2,
+      "explanation": "Adding back depreciation ignores that heavy assets genuinely must be replaced. For capital-intensive businesses the required capex is large, so EBITDA overstates distributable cash."
+    },
+    {
+      "id": "q4",
+      "kind": "true_false",
+      "prompt": "A company trading at 20x when its peers trade at 12x is by definition overvalued.",
+      "answer": false,
+      "explanation": "False. A higher multiple is justified by faster growth, better margins or lower risk. It is expensive only if the fundamentals do not explain the gap \u2014 which is a checkable claim."
+    },
+    {
+      "id": "q5",
+      "kind": "long_answer",
+      "prompt": "A colleague values a heavily indebted manufacturer using P/E and concludes it is cheap versus its debt-free peer. Explain what is wrong with the comparison and what you would use instead.",
+      "rubric": [
+        "Identifies that P/E is distorted by leverage because interest reduces net income",
+        "Explains that equity value reflects the shareholders' residual claim, so two identically-performing businesses differ on P/E purely through financing",
+        "Recommends EV/EBITDA or EV/EBIT, and states why: enterprise value and pre-interest profit cover the same claimants",
+        "Adds the caveat that EBITDA is not cash flow, and that capital expenditure must be checked for a manufacturer",
+        "Concludes with a practical comparison that would actually settle whether it is cheap"
+      ],
+      "maxScore": 5
+    }
+  ]
+}

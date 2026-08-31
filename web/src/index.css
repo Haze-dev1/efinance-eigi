@@ -1,0 +1,162 @@
+@import "tailwindcss";
+
+/* ──────────────────────────────────────────────────────────────────────────
+   efinance — a light, professional surface for a serious domain
+
+   Off-white paper, white cards, deep ink navy text, and a restrained navy
+   accent. It is modelled on clean editorial / financial publications: calm,
+   legible, confident — "the desk, in daylight". Personality comes from a small
+   set of accents (navy, slate-indigo, red for errors) used systematically
+   rather than sprayed everywhere.
+
+   Gold is reserved exclusively for tombstones. It appears nowhere else, so
+   gold always means "you earned this".
+   ────────────────────────────────────────────────────────────────────────── */
+@theme {
+  --color-ground: #f6f7f9;
+  --color-surface: #ffffff;
+  --color-surface-2: #eef1f6;
+  --color-rule: #d8dee8;
+  --color-rule-soft: #e5e9f0;
+
+  --color-text: #141d2c;
+  --color-muted: #5a6a80;
+
+  --color-mint: #1a5fb4;
+  --color-mint-dim: #e8f0f9;
+  --color-violet: #3c5586;
+  --color-violet-dim: #eef1f7;
+  --color-rose: #b9382b;
+  --color-rose-dim: #fbeceb;
+  --color-gold: #9a7410;
+
+  --font-display: "Bricolage Grotesque", ui-sans-serif, system-ui, sans-serif;
+  --font-body: "Newsreader", ui-serif, Georgia, serif;
+  --font-data: "IBM Plex Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+@layer base {
+  html {
+    background: var(--color-ground);
+    color-scheme: light;
+  }
+  body {
+    background: var(--color-ground);
+    color: var(--color-text);
+    font-family: var(--font-body);
+    font-size: 1.0625rem;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-display);
+    font-variation-settings:
+      "wdth" 100,
+      "opsz" 40;
+    letter-spacing: -0.02em;
+    text-wrap: balance;
+  }
+  ::selection {
+    background: var(--color-mint);
+    color: #fff;
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-mint);
+    outline-offset: 3px;
+    border-radius: 4px;
+  }
+}
+
+/* A soft, static wash behind the hero — colour without the noise of the old
+   dark glow. Cheap to run, quiet on paper. */
+.aurora {
+  background:
+    radial-gradient(
+      70ch 40ch at 78% -8%,
+      color-mix(in oklab, var(--color-violet) 12%, transparent),
+      transparent 65%
+    ),
+    radial-gradient(
+      60ch 36ch at 6% 12%,
+      color-mix(in oklab, var(--color-mint) 10%, transparent),
+      transparent 62%
+    );
+}
+
+/* Long-form module prose. Set for reading first: real measure, quiet colour. */
+.prose-efinance {
+  max-width: 36rem;
+  color: #33415a;
+}
+.prose-efinance p {
+  margin-block: 1.2rem;
+}
+.prose-efinance h2 {
+  font-family: var(--font-display);
+  font-size: 1.45rem;
+  font-weight: 700;
+  color: var(--color-text);
+  margin-block: 2.5rem 0.9rem;
+  line-height: 1.18;
+}
+.prose-efinance ol,
+.prose-efinance ul {
+  margin-block: 1.2rem;
+  padding-inline-start: 1.4rem;
+}
+.prose-efinance ol {
+  list-style: decimal;
+}
+.prose-efinance ul {
+  list-style: disc;
+}
+.prose-efinance li {
+  margin-block: 0.55rem;
+}
+.prose-efinance li::marker {
+  color: var(--color-muted);
+}
+.prose-efinance strong {
+  color: var(--color-text);
+  font-weight: 600;
+}
+.prose-efinance em {
+  font-style: italic;
+}
+.prose-efinance a {
+  color: var(--color-mint);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-rule);
+  border-radius: 14px;
+  box-shadow: 0 1px 2px rgba(20, 29, 44, 0.04);
+}
+.card-hover {
+  transition:
+    transform 0.18s ease,
+    border-color 0.18s ease,
+    box-shadow 0.18s ease;
+}
+.card-hover:hover {
+  transform: translateY(-2px);
+  border-color: #c3cddb;
+  box-shadow: 0 12px 28px -18px rgba(20, 29, 44, 0.35);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+  .card-hover:hover {
+    transform: none;
+  }
+}
