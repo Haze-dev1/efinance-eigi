@@ -1,0 +1,17 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "npm run build -w web",
+  "outputDirectory": "web/dist",
+  "rewrites": [
+    {
+      "//": "The client always calls same-origin /api/... — the Vite proxy does this in dev, and this rewrite does it in production. Keeping it same-origin means the server needs no CORS. Replace the host with your own Render URL.",
+      "source": "/api/:path*",
+      "destination": "https://efinance-eigi.onrender.com/api/:path*"
+    },
+    {
+      "//": "React Router owns the routes, so any non-API path must serve the SPA shell rather than 404. This must stay last: rules match in order.",
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
